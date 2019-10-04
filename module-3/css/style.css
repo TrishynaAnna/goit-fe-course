@@ -1,18 +1,18 @@
-body{
-	position: absolute;
-}
+
 div.box-1{
-	width: 1000px;
+	width: 901px;
+	margin: 0 auto;
 }
 div.box-2{
-	width: 1000px;
+	width: 901px;
+	margin: 0 auto;
 }
 div.left-box{
 float: left;
-width: 500px;
+width: 421px;
 
 }
 div.right-box{
 	float: right;
-	width: 500px;
+	width: 421px;
 }

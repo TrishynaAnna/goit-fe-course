@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Playfair Display', 'Ubuntu', serif;
+  font-family: "Playfair Display", "Ubuntu", serif;
 }
 8,
 *::before,
@@ -87,7 +87,6 @@ html {
 .right__box-h2 {
   text-align: left;
   color: #626262;
-  
 }
 .right__box-text {
   text-align: left;
@@ -193,14 +192,11 @@ html {
 }
 .bottom-right__box-text {
   color: #626262;
-  text-align: left; 
-  }
-  
- 
+  text-align: left;
 }
 .btn {
   background-color: white;
-color: #626262;;
+  color: #626262;
   border: 1px solid #555555;
   display: inline-block;
   text-align: center;

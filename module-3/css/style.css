@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
   font-family: "Playfair Display", "Ubuntu", serif;
 }
-8,
+*,
 *::before,
 *::after {
   box-sizing: inherit;

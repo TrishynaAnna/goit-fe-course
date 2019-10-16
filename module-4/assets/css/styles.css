@@ -1,0 +1,158 @@
+*. {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 1170px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.hedader {
+
+margin-bottom: 50px;
+	 
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.navigation-item_blok {
+	padding-right: 37px;
+}
+/* .navigation {
+	float: right;
+	padding-top: 20px;
+	
+} */
+.item {
+  float: right;
+	padding-top: 40px;
+
+	
+}
+.logo {
+  float: left;
+  padding: 40px;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  font-size: 30px;
+  color: #555252;
+	text-transform: uppercase;
+
+}
+.logo::first-letter {
+  color: #1abc9c;
+}
+.item_navigation-logo {
+}
+.item_navigation {
+	float: left;
+  color: #0f0101;
+	list-style-type: none;
+	/* padding: 36px; */
+margin: 37px;
+	
+}
+
+.item__link {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #0f0101;
+	font-weight: bold;
+
+}
+.item__link:hover {
+  color: #1abc9c;
+}
+
+.headline {
+  /* display: block;
+  margin: 0 auto;
+   /* padding-top: 70px; */
+	padding-bottom: 93px;
+  height: auto; 
+	overflow: hidden; 
+}
+:root{
+
+	--w: 175px;
+}
+.headline__block {
+
+	width: calc(var(--w));
+margin: auto;
+  background-color: #4ec6ab;
+}
+.headline__title {
+	font-size: 48px;
+	text-align: center;
+  text-transform: uppercase;
+  color: #515151;
+  
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    text-align: center;
+    white-space: nowrap;
+}
+.headline__title::before,
+.headline__title:after{
+  content: ' ';
+ 
+}
+.products {
+  float: left;
+  text-transform: uppercase;
+}
+.products__block{
+
+}
+.products__item{
+	float: left;
+  width: 255px;
+ 
+	margin-right: 30px;
+	text-align: center;
+
+	margin-bottom: 30px;
+	
+}
+.products__title{
+  float: left;
+  width: 255px;
+  height: 40px;
+background-color: #323232;
+font-size: 18px;
+float: left;
+margin-top: -6px;
+padding-top: 10px;
+padding-left: 13px;
+padding-bottom: 10px;
+text-align: left;
+margin-right: 30px;
+color: #e0e0e0;
+margin-bottom: 106px;
+	
+}
+.products__content{
+  /* height: 630px; */
+  float: right;
+  height: auto; 
+	overflow: hidden; 
+}
+.products__photo{
+  height: 282px;
+  width: 255px;
+  background-color: #e9f0fd;
+  padding-right: 12px;
+}
+.products__title:hover{
+ background-color: #1abc9c;
+}
+.headline_latest{
+  margin-top: 50px;
+
+}

@@ -1,0 +1,63 @@
+body{
+	background: #b8c9e7;
+}
+.header{
+
+}
+.logo{
+	float: left;
+
+}
+.navigation{
+float: left;
+}
+.menu,
+.social-info{
+	margin: 0;
+list-style-type: none;
+}
+.menu__item{
+float:left;
+font-size: 18px;
+font-weight: bold;
+margin-right: 10px;
+}
+.menu__item:last-child{
+	margin-right: 0;
+}
+.menu__item:hover{
+	color: grey;
+}
+.social-info{
+float: left;
+}
+.social-info__item{
+float: left;
+width: 25px;
+height: 25px;
+background-color: red;
+margin-right: 15px;
+}
+.social-info__item:nth-child(odd){
+	background-color: green;
+}
+.social__icon{
+
+}
+.user-info{
+float: left;
+}
+.user-info__avatar{
+
+}
+.user-info__name{
+
+}
+.sub-info{
+	float: right;
+}
+.clearfix::after{
+content: "";
+display: table;
+	clear: both;
+}

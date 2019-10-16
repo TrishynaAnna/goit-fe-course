@@ -1,0 +1,67 @@
+/* обнулили стили */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* залили цвет и выровняли */
+.header {
+  background-color: #01f131;
+  padding: 10px 0;
+}
+/* выравниваем по центру и занял место */
+.content {
+  max-width: 980px;
+  margin: 0 auto;
+}
+/* изменяем текст размер */
+.title {
+  font-size: 42px;
+}
+.navigation {
+}
+/* выравниваем по правому краю */
+.menu {
+  text-align: right;
+}
+/* выравниваем в линию */
+.menu__item {
+  display: inline-block;
+  margin-right: 20px;
+}
+/* делаем оступы */
+.menu_item:last-child {
+	margin-right: 0;
+}
+/* размещение ссылка и цвета без нижнего*/
+.menu__link{
+padding: 5px 15px;
+background-color: #f8f23e;
+color: #01f131;
+text-decoration: none;
+}
+.menu__link:hover{
+background-color: green;
+}
+.information-block{
+	text-align: center;
+	background-color: #f8f23e;
+	padding: 10px;
+}
+.logo{
+	max-width: 400px;
+}
+.number{
+	text-decoration: line-through;
+}
+/* выравниваем картинку */
+.text{
+	font-style: 30px;
+	line-height: 40px;
+}
+/* фиксируем картинку и редактируем */
+.parallax{
+	background-image: url("../images/nature.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}

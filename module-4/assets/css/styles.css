@@ -31,12 +31,11 @@ body {
   float: left;
   padding: 40px;
   background-color: white;
-  font-family: "Roboto", sans-serif;
-  position: absolute;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 30px;
   color: #555252;
   text-transform: uppercase;
-  font-weight: normal;
+  font-weight: bold;
 }
 .logo::first-letter {
   color: #1abc9c;
@@ -75,6 +74,7 @@ body {
 .headline__block {
 }
 .headline__title {
+  font-family: "Roboto", sans-serif;
   font-size: 48px;
   text-align: center;
   text-transform: uppercase;
@@ -97,11 +97,12 @@ body {
 .products__item {
   float: left;
   width: 255px;
- margin-right: 30px;
+  margin-right: 30px;
   text-align: center;
   margin-bottom: 30px;
 }
 .products__title {
+  font-family: "Roboto", sans-serif;
   float: left;
   width: 254px;
   height: 40px;
@@ -109,9 +110,8 @@ body {
   font-size: 18px;
 
   margin-top: -5px;
-  padding-top:18px;
- padding-left: 13px;
-
+  padding-top: 18px;
+  padding-left: 13px;
 
   text-align: left;
 
@@ -127,7 +127,7 @@ body {
   float: right;
   width: 54px;
   height: 42px;
-  padding-top:16px;
+  padding-top: 16px;
   padding-left: 13px;
   padding-bottom: 12px;
   padding-right: 13px;
@@ -183,9 +183,8 @@ body {
 .news__button {
   background-color: #4ec6ab;
   color: #f3fbf9;
-
   border: 0.1px solid #4ec6ab;
-
   padding: 20px 43px;
   border-radius: 2px;
+  margin-bottom: 45px;
 }

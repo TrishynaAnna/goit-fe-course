@@ -139,10 +139,10 @@ html {
   background-position: center;
 }
 .ctrl-left {
-  background-image: url(../img/Icons/chevron-left.png);
+  background-image: url("../img/icons/chevron-left.png");
 }
 .ctrl-right {
-  background-image: url(../img/Icons/chevron-right.png);
+  background-image: url("../img/icons/chevron-right.png");
   right: 0;
 }
 .slider-ctrl:hover {
@@ -190,7 +190,7 @@ html {
 .product-item-mask {
   display: none;
   position: absolute;
-  background-image: url(../img/Icons/mask.png);
+  background-image: url(../img/icons/mask.png);
   background-repeat: no-repeat;
   background-position: center;
   top: 50%;
@@ -229,16 +229,16 @@ html {
   display: block;
 }
 .icon-first {
-  background-image: url(../img/Icons/mask-icon-first.png);
+  background-image: url(../img/icons/mask-icon-first.png);
 }
 .icon-second {
-  background-image: url(../img/Icons/mask-icon-second.png);
+  background-image: url(../img/icons/mask-icon-second.png);
 }
 .icon-third {
-  background-image: url(../img/Icons/mask-icon-third.png);
+  background-image: url(../img/icons/mask-icon-third.png);
 }
 .icon-fourth {
-  background-image: url(../img/Icons/mask-icon-fourth.png);
+  background-image: url(../img/icons/mask-icon-fourth.png);
   background-position: 12px;
   background-color: #323232;
   padding-right: 12px;

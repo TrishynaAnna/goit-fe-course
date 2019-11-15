@@ -1,0 +1,212 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  min-height: 65px;
+  width: 940px;
+  margin: 0 auto;
+}
+header a {
+  display: block;
+}
+h1 {
+  margin: 0;
+}
+h1 a {
+  text-decoration: none;
+  padding-left: 5px;
+  color: var(--gold-color);
+  font-family: var(--ff-Yesteryear, serif);
+  font-size: 30px;
+  letter-spacing: 0.05em;
+}
+h1 a:first-letter {
+  text-transform: uppercase;
+}
+.nav-list {
+  list-style: none;
+  min-width: 485px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.nav-item-link {
+  text-decoration: none;
+  font-family: var(--ff-Montserrat-Regular, serif);
+  font-size: 14px;
+  color: var(--main-color);
+  text-transform: uppercase;
+  transition: color 0.2s;
+}
+.nav-item-link:hover {
+  color: var(--gold-color);
+}
+
+
+.services {
+  padding: 120px 0;
+  width: 940px;
+  margin: 0 auto;
+}
+.title {
+  text-align: center;
+  font-family: var(--ff-Montserrat-Bold, serif);
+  font-size: 40px;
+  letter-spacing: -0.025em;
+  color: var(--main-color);
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.title-text {
+  text-align: center;
+  font-family: var(--ff-Merriweather-Italic, serif);
+  font-size: 16px;
+  color: var(--semi-color);
+  margin-bottom: 72px;
+}
+
+.service-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.service-item {
+  width: 290px;
+  text-align: center;
+}
+.service-item::before {
+  content: "";
+  display: block;
+  width: 74px;
+  height: 74px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 3px solid var(--gold-color);
+  border-radius: 50%;
+  margin: 0 auto 24px;
+}
+.first-icon::before {
+  background-image: url(../img/icons/basket.png);
+}
+.second-icon::before {
+  background-image: url(../img/icons/laptop.png);
+}
+.third-icon::before {
+  background-image: url(../img/icons/security.png);
+}
+.service-item-title {
+  font-family: var(--ff-Montserrat-Bold, serif);
+  font-size: 18px;
+  color: var(--main-color);
+  margin-bottom: 17px;
+}
+.service-item-text {
+  font-family: var(--ff-RobotoSlab-Regular, serif);
+  font-size: 14px;
+  color: var(--semi-color);
+  letter-spacing: -0.025em;
+  text-align: center;
+  text-indent: 13px;
+}
+
+
+
+.section-form {
+  height: 676px;
+  min-width: 100vh;
+  background-image: url(../img/Background-img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 109px 0 115px;
+}
+.wraper-form {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.form-title {
+  color: white;
+}
+.form-title p {
+  margin-bottom: 75px;
+}
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.form ul {
+  list-style: none;
+}
+
+.form-item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.form-item input,
+.form textarea {
+  width: 455px;
+  height: 50px;
+  border: 1px solid var(--form-color);
+  border-radius: 3px;
+  font-family: var(--ff-Montserrat-Bold, serif);
+  font-size: 14px;
+  color: var(--form-color);
+  padding-left: 20px;
+}
+.form textarea {
+  height: 210px;
+  padding-top: 18px;
+  resize: none;
+}
+::placeholder {
+  font-family: var(--ff-Montserrat-Bold, serif);
+  font-size: 14px;
+  color: var(--form-color);
+  text-transform: uppercase;
+}
+
+input[name="name"]:invalid:not(:placeholder-shown),
+input[name="email"]:invalid:not(:placeholder-shown),
+textarea[name="message"]:invalid:not(:placeholder-shown) {
+  outline: 1px solid #ff0000;
+}
+input[name="name"]:valid:not(:placeholder-shown),
+input[name="email"]:valid:not(:placeholder-shown),
+textarea[name="message"]:valid:not(:placeholder-shown) {
+  outline: 1px solid #008f00;
+}
+form button {
+  display: block;
+  margin: 30px auto 0;
+  background-color: var(--gold-color);
+  width: 240px;
+  height: 66px;
+  border: none;
+  border-radius: 3px;
+  font-family: var(--ff-Montserrat-Bold, serif);
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.2s;
+}
+button:hover {
+  transform: scale(1.05);
+
+}

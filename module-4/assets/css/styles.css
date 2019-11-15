@@ -3,7 +3,7 @@
   margin: 0;
 }
 body {
-  width: 1170px;
+  width: 1600px;
   margin: 0 auto;
   background-color: #fff;
 }
@@ -27,19 +27,25 @@ body {
   float: right;
   padding-top: 40px;
 }
+
+.logo::first-letter {
+  color: #1abc9c;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
 .logo {
   float: left;
   padding: 40px;
   background-color: white;
-  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.logo__text {
+
+  font-family: 'Roboto ', sans-serif;
   font-size: 30px;
   color: #555252;
   text-transform: uppercase;
-  font-weight: bold;
-}
-.logo::first-letter {
-  color: #1abc9c;
-  font-weight: bold;
+  font-weight: 300;
 }
 .item_navigation-logo {
 }
@@ -108,13 +114,10 @@ body {
   height: 40px;
   background-color: #323232;
   font-size: 18px;
-
   margin-top: -5px;
   padding-top: 18px;
   padding-left: 13px;
-
   text-align: left;
-
   color: #e0e0e0;
 }
 .products__content {

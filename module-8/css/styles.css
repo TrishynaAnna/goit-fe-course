@@ -199,16 +199,16 @@ margin-bottom: 4.1rem;
   border-radius: 50%;
 }
 .icon-tv::before {
-  background-image: url(./img/Icons/tv.png);
+  background-image: url(../img/Icons/tv.png);
 }
 .icon-cup::before {
-  background-image: url(./img/Icons/cup.png);
+  background-image: url(../img/Icons/cup.png);
 }
 .icon-flask::before {
-  background-image: url(./img/Icons/flask.png);
+  background-image: url(../img/Icons/flask.png);
 }
 .icon-telegram::before {
-  background-image: url(./img/Icons/telegram.png);
+  background-image: url(../img/Icons/telegram.png);
 }
 
 .photo-name {

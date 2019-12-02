@@ -190,7 +190,7 @@ html {
 .product-item-mask {
   display: none;
   position: absolute;
-  background-image: url(../img/icons/mask.png);
+  background-image: url("../img/icons/mask.png");
   background-repeat: no-repeat;
   background-position: center;
   top: 50%;

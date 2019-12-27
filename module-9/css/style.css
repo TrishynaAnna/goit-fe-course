@@ -1,0 +1,231 @@
+@import "./fonts.css";
+@import "./var.css";
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: var(--title-ff);
+  font-size: var(--main-fz);
+  line-height: 1.2;
+}
+
+/* promo-section */
+
+.promo-wrapper {
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.promo-overlay {
+  background-color: rgba(26, 25, 21, 0.5);
+}
+
+.promo-section {
+  padding-top: 34px;
+  padding-bottom: 138px;
+}
+
+/* promo-section__header */
+.promo-section__header {
+  margin-bottom: 27px;
+}
+
+.header-nav {
+  padding-bottom: 123px;
+}
+
+.header-nav__list {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-left: 0;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.header-nav__link {
+  display: block;
+  padding: 9px 16px 7px;
+  color: var(--light-color);
+  text-decoration: none;
+  border: 2px solid rgba(255, 255, 255, 0);
+  border-radius: 20px;
+  transition: all 0.2s linear;
+}
+
+.header-nav__link:hover,
+.header-nav__link:focus {
+  border: 2px solid rgba(255, 255, 255, 1);
+}
+
+.header-logo {
+  display: block;
+  font-size: 20px;
+  color: var(--light-color);
+  text-align: center;
+  text-indent: 0.05em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/* end promo-section__header */
+
+.promo-section__title,
+.promo-section__text {
+  margin: 0;
+  text-align: center;
+  color: var(--light-color);
+}
+
+.promo-section__title {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.site-title__break {
+  display: block;
+}
+
+.promo-section__text {
+  padding-top: 10px;
+  padding-bottom: 13px;
+  font-family: var(--text-ff);
+  font-size: 18px;
+}
+
+.main-text__break {
+  display: block;
+}
+
+/* promo-section__button */
+
+.promo-section__btn,
+.partners-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 13px 52px 11px;
+  color: var(--light-color);
+  background-color: var(--hallmark-color);
+  border: 0;
+  outline: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.promo-section__btn:hover,
+.promo-section__btn:focus {
+  color: #333333;
+  background-color: var(--light-color);
+}
+
+/* end promo-section */
+
+/* partners-section */
+
+.partners {
+  padding-top: 67px;
+  padding-bottom: 57px;
+}
+
+.partners-title,
+.list-item__title,
+.list-item__description {
+  margin: 0;
+  text-align: center;
+}
+
+.partners-title,
+.list-item__title {
+  font-size: 22px;
+  color: var(--title-color);
+}
+
+.partners-title {
+  padding-bottom: 12px;
+}
+
+.partners-list {
+  margin-top: 0;
+  margin-bottom: 26px;
+  padding-left: 0;
+}
+
+.partners-list__item {
+  margin: 0 auto;
+  max-width: 220px;
+  list-style: none;
+}
+
+.list-item__wrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 120px;
+}
+
+.partners-image {
+  border-radius: 50%;
+}
+
+.list-item__wrapper::after {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: block;
+  width: 40px;
+  height: 40px;
+  content: "";
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 4px solid var(--light-color);
+  border-radius: 50%;
+}
+
+.icon-tv::after {
+  background-image: url("../img/icons/tv-icon.png");
+  background-color: var(--hallmark-color);
+}
+
+.icon-flask::after {
+  background-image: url("../img/icons/flask-icon.png");
+  background-color: #ffa507;
+}
+
+.icon-cup::after {
+  background-image: url("../img/icons/cup-icon.png");
+  background-color: #1cd7ad;
+}
+
+.icon-papperplane::after {
+  background-image: url("../img/icons/paperplane-icon.png");
+  background-color: #4e73db;
+}
+
+.list-item__title {
+  padding: 18px 0;
+}
+
+.list-item__description {
+  font-family: var(--text-ff);
+  color: var(--text-color);
+}
+
+.partners-btn {
+  padding: 11px 72px 9px;
+  background-color: var(--light-color);
+  color: var(--hallmark-color);
+  border: 2px solid var(--hallmark-color);
+}
+
+.partners-btn:hover,
+.partners-btn:focus {
+  color: var(--light-color);
+  background-color: var(--hallmark-color);
+}

@@ -1,0 +1,9 @@
+:root {
+  --title-ff: "Montserrat", "Arial", sans-serif;
+  --text-ff: "Roboto", "Times New Roman", serif;
+  --main-fz: 14px;
+  --light-color: #fff;
+  --title-color: #333;
+  --text-color: #666;
+  --hallmark-color: #ff4e50;
+}
